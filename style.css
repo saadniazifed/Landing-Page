@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, button {
+    font-family: Poppins;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+}
+
+.header,
+.left-side,
+.right-side {
+    display: flex;
+    gap: 20px;
+}
+
+.left-side {
+    margin-left: 250px;
+}
+
+.left-side,
+.right-side {
+    padding-top: 25px;
+}
+
+.right-side {
+    margin-left: auto;
+    margin-right: 140px;
+}
+
+/* Body Content One Starts */
+
+.body-content-one {
+    /* border: 3px solid darkmagenta; */
+    height: 550px;
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+}
+
+.left-side-one h1 {
+    font-size: 48px;
+}
+
+.left-side-one p {
+    font-size: 18px;
+}
+
+
+.right-side-one img {
+    width: 600px;
+    height: auto;
+}
+
+.left-side-one {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    flex-wrap: wrap;
+    margin-left: 250px;
+    text-align: left;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.left-side-one button {
+    width: 100px;
+    margin-top: 10px;
+    background-color: #3882F6;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.right-side-one {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 65px;
+}
+
+/* Body Content One Ends */
+
+/* Body Content Two Starts */
+
+.body-content-two {
+    background-color: white;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+
+}
+
+
+
+
+.body-content-two-box-wrapper {
+    /* border: 5px solid darkorchid; */
+    display: flex;
+    gap: 20px;
+    /* justify-content: center; */
+    text-align: center;
+    /* margin-bottom: 150px; */
+    /* align-items: center; */
+
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+img {
+    width: 250px;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+/* Body Content Two Ends */
+
+/* Body Content Three Starts */
+
+.body-content-three {
+    height: 500px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.body-content-three .quote {
+    font-size: 36px;
+    font-style: italic;
+    width: 65%;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.body-content-three .quote-person {
+    font-size: 36px;
+    font-weight: 700;
+    width: 65%;
+    display: flex;
+    justify-content: flex-end;
+}
